@@ -1,2 +1,2 @@
 # ssdnotes
-Techno Blog about SSD
+Techno Blog about SSD based on Jekyll
