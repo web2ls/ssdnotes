@@ -16,8 +16,8 @@
 title: SSDnotes
 email: your-email@domain.com
 description: > # Tecnical blog about SSD
-baseurl: "/ssdnotes" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
