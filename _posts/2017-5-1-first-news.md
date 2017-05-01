@@ -3,7 +3,7 @@ layout: default
 title:  Старт проекта!
 createAt:   Понедельник, 1 мая, 2017
 imageInfo:
-  url: /images/ssd-first-post.jpg
+  url: images/ssd-first-post.jpg
 previewText: Старт проекта начинается с данной вступительной новости)
 ---
 
