@@ -1,13 +1,13 @@
 <nav>
   <ul>
     <li>
-      <a href="{{ site.url }}" class="{% if page.url == '/' %} active {% endif %}">Главная</a>
+      <a href="{{ site.github.url }}" class="{% if page.url == '/' %} active {% endif %}">Главная</a>
     </li>
     <li>
-      <a href="/notes" class="{% if page.url == '/notes' %} active {% endif %}">Заметки</a>
+      <a href="{{ site.github.url }}/notes" class="{% if page.url == '/notes' %} active {% endif %}">Заметки</a>
     </li>
     <li>
-      <a href="/lexicon" class="{% if page.url == '/lexicon' %} active {% endif %}">Лексикон</a>
+      <a href="{{ site.github.url }}/lexicon" class="{% if page.url == '/lexicon' %} active {% endif %}">Лексикон</a>
     </li>
   </ul>
 </nav>
