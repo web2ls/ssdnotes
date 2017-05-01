@@ -1,0 +1,17 @@
+<nav>
+  <ul>
+    <li>
+      <a href="{{ site.url }}" class="{% if page.url == '/' %} active {% endif %}">Главная</a>
+    </li>
+    <li>
+      <a href="/notes" class="{% if page.url == '/notes' %} active {% endif %}">Заметки</a>
+    </li>
+    <li>
+      <a href="/lexicon" class="{% if page.url == '/lexicon' %} active {% endif %}">Лексикон</a>
+    </li>
+  </ul>
+</nav>
+<div class="logo">
+  <h1><a href="#">ssd<span>notes</span></a></h1>
+  <div class="logo-description">simple storage description</div>
+</div>

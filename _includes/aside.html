@@ -1,0 +1,10 @@
+<h2 class="aside-header">Последние записи</h2>
+<hr>
+
+<div class="related-posts-list">
+  {% for post in site.posts %}
+    {% if forloop.index < 6 %}
+      <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+    {% endif %}
+  {% endfor %}
+</div>
