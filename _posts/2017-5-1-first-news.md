@@ -22,10 +22,10 @@ previewText: Старт проекта начинается с данной вс
 
 <div class="bottom-links">
   {% if page.previous.url %}
-    <a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+    <a href="{{ site.github.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
   {% endif %}
-  <a href="{{ site.url }}">Главная</a>
+  <a href="{{ site.github.url }}">Главная</a>
   {% if page.next.url %}
-    <a href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+    <a href="{{ site.github.url }}/{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </div>
