@@ -26,6 +26,6 @@ previewText: Старт проекта начинается с данной вс
   {% endif %}
   <a href="{{ site.github.url }}">Главная</a>
   {% if page.next.url %}
-    <a href="{{ site.github.url }}/{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+    <a href="{{ site.github.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </div>
