@@ -5,7 +5,7 @@ layout: default
 <main class="news-list">
   {% for post in site.posts %}
     <div class="news-preview-container">
-      <h2 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2 class="news-title"><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h2>
       <p class="news-date">{{ post.createAt }}</p>
       <div class="news-image-preview-container">
         <img class="news-image-preview" src="{{ post.imageInfo.url }}" alt="Изображение твердотельного накопителя">
