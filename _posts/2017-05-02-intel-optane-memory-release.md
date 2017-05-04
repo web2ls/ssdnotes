@@ -7,7 +7,7 @@ imageInfo:
 previewText: Не так давно Intel выпустила первый продукт, основанный на семействе Optane(ранее 3D XPoint) - Optane SSD DC P4800X, это SSD накопитель промышленного уровня. Теперь же Intel показала второй продукт в линейке Optane - память Optane.
 ---
 
-<h2 class="news-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<h2 class="news-title"><a href="{{ site.github.url }}{{ page.url }}">{{ page.title }}</a></h2>
 <p class="news-date">{{ page.createAt }}</p>
 <div class="news-image-preview-container">
   <img class="news-image-preview" src="{{ page.imageInfo.url }}" alt="Изображение твердотельного накопителя">
