@@ -141,6 +141,10 @@ nav a:hover {
   color: #666666;
 }
 
+.news-title a:hover {
+  color: #8E8E8E;
+}
+
 .news-date {
   max-width: 100%;
   margin-top: 0;
@@ -271,6 +275,10 @@ footer {
   .news-image-preview-container {
     float: none;
     margin: auto;
+  }
+
+  footer {
+    font-size: 0.8em;
   }
 }
 
