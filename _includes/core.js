@@ -1,4 +1,6 @@
 window.onload = function() {
+  console.log('yep here');
+  
   function changeLikeNumber(likeNumber, value) {
     return Number(likeNumber.innerHTML) + value;
   };
