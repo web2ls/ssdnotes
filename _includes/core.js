@@ -1,6 +1,4 @@
 window.onload = function() {
-  console.log('yep here');
-  
   function changeLikeNumber(likeNumber, value) {
     return Number(likeNumber.innerHTML) + value;
   };
@@ -34,6 +32,8 @@ window.onload = function() {
   var likeIcon = document.getElementById('like-icon');
 
   database.ref('news/' + newsId).once('value').then(function(snapshot) {
+    console.log('simple test);
+    console.log(snapshot.val());
     if (snapshot.val()) {
       var likeNumber = document.getElementById('like-number');
       if (snapshot.val().likeNumber > 0) {
