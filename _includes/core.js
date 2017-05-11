@@ -20,9 +20,9 @@ window.onload = function() {
   };
 
   var config = {
-    apiKey: "AIzaSyB4IugEtG4T01tV_gUiPU-fxyKRRJ3Eja8",
-    authDomain: "ssdnotes-5a0df.firebaseapp.com",
-    databaseURL: "https://ssdnotes-5a0df.firebaseio.com"
+    apiKey: "AIzaSyCMGqBNX-IRkRHwve6POdmx51sW76z4RJw",
+    authDomain: "test-a9274.firebaseapp.com",
+    databaseURL: "https://test-a9274.firebaseio.com"
   };
 
   firebase.initializeApp(config);
