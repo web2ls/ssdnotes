@@ -1,0 +1,9 @@
+<div class="bottom-links">
+  {% if page.previous.url %}
+    <a href="{{ site.github.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  <a href="{{ site.github.url }}">Главная</a>
+  {% if page.next.url %}
+    <a href="{{ site.github.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+  {% endif %}
+</div>

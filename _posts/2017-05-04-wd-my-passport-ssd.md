@@ -1,17 +1,12 @@
 ---
-layout: default
+layout: post
 title:  Western Digital выпустила WD My Passport SSD
 createAt:   Четверг, 4 мая, 2017
+identify: 3
 imageInfo:
   url: images/2017/05/wd-my-passport-ssd.jpg
 previewText: Western Digital Corporation представила новый My Passport, но отличием является то, что данный накопитель базируется на SSD, и это первый портативный накопитель такого формата. Расширяя линейку продуктов My Passport, новый девайс My Passport SSD обладает лучшей производительностью, чем обычно ожидается при переходе  от диска к накопителю на флэш памяти. Целью нового My Passport SSD станут создатели контента и технические энтузиасты, которые нуждаются в высокой производительности их мобильных девайсов.
 ---
-
-<h2 class="news-title"><a href="{{ site.github.url }}{{ page.url }}">{{ page.title }}</a></h2>
-<p class="news-date">{{ page.createAt }}</p>
-<div class="news-image-preview-container">
-  <img class="news-image-preview" src="{{ page.imageInfo.url }}" alt="Изображение твердотельного накопителя">
-</div>
 
 <div class="news-text">
 
@@ -21,14 +16,4 @@ previewText: Western Digital Corporation представила новый My Pa
 
   <p>Что касается цен и емкостей, то диск будет поставляться на 256ГБ, 512ГБ и 1Тб, по стоимости $99.99, $199.99 и $399.99 соответственно.</p>
 
-</div>
-
-<div class="bottom-links">
-  {% if page.previous.url %}
-    <a href="{{ site.github.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
-  {% endif %}
-  <a href="{{ site.github.url }}">Главная</a>
-  {% if page.next.url %}
-    <a href="{{ site.github.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-  {% endif %}
 </div>
