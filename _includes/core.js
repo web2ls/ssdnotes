@@ -48,10 +48,10 @@ window.onload = function() {
             likeNumber.innerHTML = '';
           }
         };
-      } else {
+      };
+    } else {
         database.ref('news/' + newsId).set({likeNumber: 0});
       }
-    }
   });
 
   likeIcon.addEventListener('click', function(event) {
