@@ -63,13 +63,13 @@ window.onload = function() {
       } else {
           likeNumber.innerHTML = changeLikeNumber(likeNumber, -1);
       };
-      database.ref('news/' + newsId).set({ likeNumber: likeNumber.innerHTML });
+      database.ref('news/' + newsId).set({ likeNumber: Number(likeNumber.innerHTML) });
       saveToLocalStorage(newsId, false);
     } else {
       setLikedStyle(event);
       var likeNumber = document.getElementById('like-number');
       likeNumber.innerHTML = changeLikeNumber(likeNumber, 1);
-      database.ref('news/' + newsId).set({ likeNumber: likeNumber.innerHTML });
+      database.ref('news/' + newsId).set({ likeNumber: Number(likeNumber.innerHTML) });
       saveToLocalStorage(newsId, true);
     }
   });
