@@ -202,7 +202,8 @@ nav a:hover {
 }
 
 .bottom-links a {
-  width: 33%;
+  display: block;
+  width: 37.5%;
   font-size: 12px;
   font-weight: 400;
   line-height: normal;
@@ -211,6 +212,11 @@ nav a:hover {
 
 .bottom-links a:hover {
   color: #666666;
+}
+
+.bottom-links .post-nav-link-to-mainpage {
+  width: 25%;
+  text-align: center;
 }
 
 aside {
