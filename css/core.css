@@ -161,7 +161,7 @@ nav a:hover {
 .news-image-preview-container {
   float: left;
   width: 200px;
-  height: 150px;
+  /*height: 150px;*/
   margin-right: 5px;
 }
 
